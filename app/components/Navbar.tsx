@@ -14,7 +14,7 @@ export default function Navbar() {
         
         {/* Mobile: Hamburger Button (Left) */}
         <button
-          className="lg:hidden pt-2 z-50 relative hover:opacity-70 transition text-black"
+          className="lg:hidden pt-2 z-50 relative hover:opacity-70 transition"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           aria-label="Toggle Mobile Menu"
         >
@@ -32,7 +32,7 @@ export default function Navbar() {
         </button>
 
         {/* Desktop: Left Links */}
-        <ul className="hidden lg:flex gap-8 pt-2 text-black">
+        <ul className="hidden lg:flex gap-8 pt-2">
           <li><Link href="/ss26" className="hover:opacity-70 transition">SS26</Link></li>
           <li><Link href="/shop" className="hover:opacity-70 transition">Shop</Link></li>
           <li><Link href="/journal" className="hover:opacity-70 transition">Journal</Link></li>
@@ -41,7 +41,7 @@ export default function Navbar() {
         </ul>
 
         {/* Center Logo (Always Visible) */}
-        <div className="flex flex-col items-center justify-center text-center z-50 relative pointer-events-none text-black">
+        <div className="flex flex-col items-center justify-center text-center z-50 relative pointer-events-none">
           <h1 className="font-serif text-2xl lg:text-3xl tracking-[0.3em] mb-1">
             K I N D R E D
           </h1>
@@ -51,7 +51,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop: Right Links */}
-        <ul className="hidden lg:flex gap-8 pt-2 text-black">
+        <ul className="hidden lg:flex gap-8 pt-2">
           <li><Link href="/search" className="hover:opacity-70 transition">Search</Link></li>
           <li><Link href="/saved" className="hover:opacity-70 transition">Saved (0)</Link></li>
           <li><Link href="/account" className="hover:opacity-70 transition">Account</Link></li>
