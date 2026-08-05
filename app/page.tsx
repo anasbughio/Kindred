@@ -1,5 +1,6 @@
 import AnnouncementBar from "./components/AnnouncementBar";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 // You can also extract the floating chat widget into its own component!
 
@@ -9,6 +10,7 @@ export default function Home() {
       <AnnouncementBar />
       
       <div className="relative flex-grow w-full h-full min-h-screen">
+        <Hero />
         <Navbar />
         
         {/* Floating Chat/Widget Icon - You can extract this to a component too */}
