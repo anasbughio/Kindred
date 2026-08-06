@@ -6,6 +6,7 @@ import HouseSignatures from "./home/HouseSignatures";
 import Manifesto from "./home/Manifesto";
 import ProductCollection from "./home/ProductCollection";
 import SplitMediaSection from "./home/SplitMediaSection";
+import PastelStripesText from "./home/PastelStripesText";
 
 // You can also extract the floating chat widget into its own component!
 
@@ -24,6 +25,7 @@ export default function Home() {
          <CollectionShowcase />
          <HouseSignatures />
          <SplitMediaSection />
+         <PastelStripesText />
         {/* Floating Chat/Widget Icon - You can extract this to a component too */}
         <div className="fixed bottom-6 right-6 z-50 flex items-center justify-center">
           {/* Widget code goes here */}
