@@ -2,6 +2,7 @@ import AnnouncementBar from "./components/AnnouncementBar";
 import Navbar from "./components/Navbar";
 import CollectionShowcase from "./home/CollectionShowcase";
 import Hero from "./home/Hero";
+import HouseSignatures from "./home/HouseSignatures";
 import Manifesto from "./home/Manifesto";
 import ProductCollection from "./home/ProductCollection";
 
@@ -20,6 +21,7 @@ export default function Home() {
          <Manifesto />
          <ProductCollection />
          <CollectionShowcase />
+         <HouseSignatures />
         {/* Floating Chat/Widget Icon - You can extract this to a component too */}
         <div className="fixed bottom-6 right-6 z-50 flex items-center justify-center">
           {/* Widget code goes here */}
