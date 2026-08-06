@@ -2,6 +2,7 @@ import AnnouncementBar from "./components/AnnouncementBar";
 import Navbar from "./components/Navbar";
 import Hero from "./home/Hero";
 import Manifesto from "./home/Manifesto";
+import ProductCollection from "./home/ProductCollection";
 
 // You can also extract the floating chat widget into its own component!
 
@@ -16,6 +17,7 @@ export default function Home() {
     
          </div>
          <Manifesto />
+         <ProductCollection />
         {/* Floating Chat/Widget Icon - You can extract this to a component too */}
         <div className="fixed bottom-6 right-6 z-50 flex items-center justify-center">
           {/* Widget code goes here */}
