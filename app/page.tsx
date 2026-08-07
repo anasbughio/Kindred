@@ -8,6 +8,7 @@ import ProductCollection from "./home/ProductCollection";
 import SplitMediaSection from "./home/SplitMediaSection";
 import PastelStripesText from "./home/PastelStripesText";
 import CraftsmanshipSection from "./home/CraftsmanshipSection";
+import StoriesAndEvents from "./home/StoriesAndEvents";
 
 // You can also extract the floating chat widget into its own component!
 
@@ -28,6 +29,7 @@ export default function Home() {
          <SplitMediaSection />
          <PastelStripesText />
          <CraftsmanshipSection />
+         <StoriesAndEvents />
         {/* Floating Chat/Widget Icon - You can extract this to a component too */}
         <div className="fixed bottom-6 right-6 z-50 flex items-center justify-center">
           {/* Widget code goes here */}
