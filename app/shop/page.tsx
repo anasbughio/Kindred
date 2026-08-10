@@ -2,6 +2,7 @@ import AnnouncementBar from "../components/AnnouncementBar";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import CollectionHeader from "../shopAll/CollectionHeader";
+import ShopHeroSection from "../shopAll/ShopHeroSection";
 
 // You can also extract the floating chat widget into its own component!
 
@@ -14,6 +15,7 @@ export default function Home() {
         
         <Navbar />
         <CollectionHeader />
+        <ShopHeroSection />
          </div>
        
          <Footer />
